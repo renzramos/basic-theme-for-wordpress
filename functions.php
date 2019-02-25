@@ -1,7 +1,4 @@
 <?php
-// includes
-include('includes/settings.php');
-
 // basic setup
 if (!function_exists('basic_setup')){
 
@@ -9,6 +6,7 @@ if (!function_exists('basic_setup')){
 		add_theme_support( 'title-tag' );
 		add_theme_support( 'custom-logo' );
 		add_theme_support( 'html5' );
+		add_theme_support( 'post-thumbnails' ); 
 	}
 
 }
@@ -29,7 +27,7 @@ function enqueue_scripts() {
 		'home_url' => home_url(),
 		'ajax_url' => admin_url( 'admin-ajax.php' )
 	);
-	wp_localize_script( 'script', 'scr', $translation_array );
+	wp_localize_script( 'script', 'localizedScript', $translation_array );
 
 }
 add_action( 'wp_enqueue_scripts', 'enqueue_scripts' );

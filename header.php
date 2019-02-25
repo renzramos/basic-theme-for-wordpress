@@ -14,6 +14,8 @@
 		<div id="main-wrapper">
 
 			<!-- main header -->
-			<header id="main-header"></header>	
+			<header id="main-header">
+			
+			</header>	
 			<!-- .main header -->
 
