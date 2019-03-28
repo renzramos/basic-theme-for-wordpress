@@ -15,7 +15,10 @@
 
 			<!-- main header -->
 			<header id="main-header">
-			
+				<div class="container">
+				
+					
+				</div>
 			</header>	
 			<!-- .main header -->
 
