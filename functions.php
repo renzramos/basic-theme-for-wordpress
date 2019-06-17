@@ -2,6 +2,8 @@
 /*
 * Basic Theme for WordPress
 * Author: Renz R.
+* Created At: 2018-06-06
+* Updated At: 2019-06-18
 */
 
 // basic setup
