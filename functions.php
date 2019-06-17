@@ -1,4 +1,9 @@
 <?php
+/*
+* Basic Theme for WordPress
+* Author: Renz R.
+*/
+
 // basic setup
 if (!function_exists('basic_setup')){
 
