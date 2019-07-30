@@ -25,8 +25,6 @@ if (!function_exists('basic_setup')){
 }
 add_action( 'after_setup_theme', 'basic_setup' );
 
-
-
 // Enqueue Scripts
 function enqueue_scripts() {
 
