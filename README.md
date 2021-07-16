@@ -1,1 +1,1 @@
-Basic Theme for Wordpress
+Basic Theme for Wordpress (will be updated soon 2021)
