@@ -1,5 +1,5 @@
 {
-  "name": "xx",
+  "name": "basic-theme-for-wordpress",
   "version": "1.0.0",
   "description": "xx",
   "main": "index.js",
@@ -9,7 +9,7 @@
   "author": "Renz R.",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "^4.3.1",
-    "popper.js": "^1.14.7"
+    "@popperjs/core": "^2.11.5",
+    "bootstrap": "^5.1.3"
   }
 }

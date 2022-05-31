@@ -28,10 +28,10 @@ add_action( 'after_setup_theme', 'basic_setup' );
 // Enqueue Scripts
 function enqueue_scripts() {
 
-	wp_enqueue_style( 'bootstrap', get_stylesheet_directory_uri() . '/node_modules/dist/css/bootstrap.min.css', array(), null);
+	wp_enqueue_style( 'bootstrap', get_stylesheet_directory_uri() . '/node_modules/bootstrap/dist/css/bootstrap.min.css', array(), null);
     wp_enqueue_style( 'style', get_stylesheet_uri(), array(), null  );
 
-	wp_enqueue_script('bootstrap', get_stylesheet_directory_uri() . '/node_modules/dist/js/bootstrap.js', array() ,null, true);
+	wp_enqueue_script('bootstrap', get_stylesheet_directory_uri() . '/node_modules/bootstrap/dist/js/bootstrap.js', array() ,null, true);
 	wp_enqueue_script('script', get_stylesheet_directory_uri() . '/assets/js/script.js', array() ,null, true);
 	
 	// Localize the script with new data
