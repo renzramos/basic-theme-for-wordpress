@@ -12,7 +12,7 @@ if (!function_exists('basic_setup')){
 	function basic_setup(){
 		add_theme_support( 'title-tag' );
 		add_theme_support( 'custom-logo' );
-		add_theme_support( 'html5' );
+		add_theme_support( 'html5', array( 'comment-list', 'comment-form', 'search-form', 'gallery', 'caption', 'style', 'script' ) );
 		add_theme_support( 'post-thumbnails' ); 
 
 		// Woocommerce Support
